@@ -1,6 +1,6 @@
 {
   "name": "hono-correlation-id",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Hono middleware to set correlation id across requests.",
   "type": "module",
   "main": "dist/index.cjs",
