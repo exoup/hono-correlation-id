@@ -12,8 +12,8 @@ npm i hono-correlation-id
 Normal: 
 
 ```ts
-import { useCorrelationId } from 'hono-correlation-id'
 import { Hono } from 'hono'
+import { useCorrelationId } from 'hono-correlation-id'
 
 const app = new Hono()
 
@@ -26,8 +26,8 @@ export default app
 Custom:
 
 ```ts
-import { useCorrelationId } from 'hono-correlation-id'
 import { Hono } from 'hono'
+import { useCorrelationId } from 'hono-correlation-id'
 import { nanoid } from 'nanoid'
 
 const app = new Hono()
@@ -55,7 +55,7 @@ Options that let you configure the incoming/outgoing correlation id header, gene
 Configures the name of the incoming Request header to check for a correlation id.
 Configures the name of the outgoing Response header containing a correlation id.
 
-##### `generator` Function: () => string `() => crypto.randomUUID()`
+##### `generator` Function: () => string `() => pseudo-v4uuid`
 Configures the function to use for generating a correlation id.
 Defaults to a v4 UUID from the crypto node package.
 
