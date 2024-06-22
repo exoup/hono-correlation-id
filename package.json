@@ -51,6 +51,7 @@
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20240529.0",
     "@types/jest": "^29.5.12",
+    "@types/node": "^20.14.7",
     "hono": "^4.4.2",
     "tsup": "^8.0.2",
     "typescript": "^5.4.5",
