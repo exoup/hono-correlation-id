@@ -39,7 +39,6 @@ describe('useCorrelationId middleware', () => {
             }
         })
         const res = await app.request(req)
-        console.log(res.headers.get('X-Correlation-Id'))
         expect(res).not.toBeNull()
         expect(res.status).toBe(200)
         expect(res.headers.get('X-Correlation-Id')).not.toBe('validate')
