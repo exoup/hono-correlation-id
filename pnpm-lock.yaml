@@ -19,7 +19,7 @@ importers:
         version: 20.14.7
       hono:
         specifier: ^4.4.2
-        version: 4.4.2
+        version: 4.11.4
       tsup:
         specifier: ^8.0.2
         version: 8.0.2(postcss@8.5.6)(typescript@5.4.5)
@@ -865,9 +865,9 @@ packages:
     resolution: {integrity: sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==}
     engines: {node: '>=8'}
 
-  hono@4.4.2:
-    resolution: {integrity: sha512-bRhZ+BM9r04lRN2i9wiZ18yQNbZxHsmmRIItoAb43nRkHnIDsFhFh4mJ0seEs06FvenibpAgSVNHQ8ZzcDQx2A==}
-    engines: {node: '>=16.0.0'}
+  hono@4.11.4:
+    resolution: {integrity: sha512-U7tt8JsyrxSRKspfhtLET79pU8K+tInj5QZXs1jSugO1Vq5dFj3kmZsRldo29mTBfcjDRVRXrEZ6LS63Cog9ZA==}
+    engines: {node: '>=16.9.0'}
 
   human-signals@2.1.0:
     resolution: {integrity: sha512-B4FFZ6q/T2jhhksgkbEW3HBvWIfDW85snkQgawt07S7J5QXTk6BkNV+0yAeZrM5QpMAdYlocGoljn0sJ/WQkFw==}
@@ -2057,7 +2057,7 @@ snapshots:
 
   has-flag@4.0.0: {}
 
-  hono@4.4.2: {}
+  hono@4.11.4: {}
 
   human-signals@2.1.0: {}
 
