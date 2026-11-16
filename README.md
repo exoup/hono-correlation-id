@@ -80,7 +80,3 @@ app.onError((err, c) => {
 	}, 500);
 });
 ```
-
-## Author
-
-- Joseph Y - <https://github.com/exoup>
