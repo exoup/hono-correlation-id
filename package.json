@@ -1,6 +1,6 @@
 {
   "name": "hono-correlation-id",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Hono middleware to set correlation id across requests.",
   "type": "module",
   "main": "dist/index.cjs",
@@ -49,14 +49,14 @@
     "hono": "*"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20260114.0",
+    "@cloudflare/workers-types": "^4.20260702.1",
     "@types/jest": "^29.5.14",
-    "@types/node": "^20.19.29",
-    "hono": "^4.11.4",
-    "tsup": "^8.5.1",
+    "@types/node": "^26.6.6",
+    "hono": "^4.13.19",
+    "tsup": "^9.0.0",
     "typescript": "^5.9.3",
-    "vite": "^5.4.21",
-    "vitest": "^1.6.1"
+    "vite": "^8.3.8",
+    "vitest": "^5.1.0"
   },
   "tsup": {
     "clean": true,
